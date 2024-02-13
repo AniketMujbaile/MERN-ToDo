@@ -4,8 +4,8 @@ import axios from 'axios'
 import { redirect, useNavigate } from 'react-router'
 
 const Register = () => {
-  //const Url = "https://todo-app-rho-three-59.vercel.app"
-    const Url = "http://localhost:5000"
+    const Url = "https://mern-to-do-ten.vercel.app/"
+    //const Url = "http://localhost:5000"
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [disable, setDisable] = useState(false)

@@ -5,8 +5,8 @@ const SubTodo = ({ todoId, token }) => {
     const [subTodos, setSubTodos] = useState([]);
     const [newSubTodo, setNewSubTodo] = useState('');
     const [loading, setLoading] = useState(false)
-    //const Url = "https://todo-app-rho-three-59.vercel.app"
-    const Url = "http://localhost:5000"
+    const Url = "https://mern-to-do-ten.vercel.app/"
+    //const Url = "http://localhost:5000"
 
     useEffect(() => {
         // Fetch subtodos when the component mounts

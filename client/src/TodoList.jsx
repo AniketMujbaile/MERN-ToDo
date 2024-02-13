@@ -7,8 +7,8 @@ import AddTodoForm from './components/AddTodoForm';
 import { useNavigate } from 'react-router';
 
 const TodoList = ({ token, categories, fetchCategories }) => {
-  const Url = "http://localhost:5000"
-  // const Url = "https://todo-app-rho-three-59.vercel.app"
+  //const Url = "http://localhost:5000"
+  const Url = "https://mern-to-do-ten.vercel.app/"
 
   const navigate = useNavigate()
   const [todos, setTodos] = useState([]);

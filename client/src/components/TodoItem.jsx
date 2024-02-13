@@ -5,8 +5,8 @@ import { useState } from 'react';
 import SubTodo from './SubTodo';
 
 const TodoItem = ({ todo, token, currentTodos, setCurrentTodos }) => {
-  //const Url = "https://todo-app-rho-three-59.vercel.app"
-  const Url = "http://localhost:5000"
+  const Url = "https://mern-to-do-ten.vercel.app/"
+  //const Url = "http://localhost:5000"
   const { id, title, completed, created_at, category_name } = todo;
   const [showSubTodos, setShowSubTodos] = useState(false);
 

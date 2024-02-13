@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 
 const CategoryForm = ({token, categories, setCategories}) => {
 
-   // const Url = "https://todo-app-rho-three-59.vercel.app"
-  const Url = "http://localhost:5000"
+  const Url = "https://mern-to-do-ten.vercel.app/"
+  //const Url = "http://localhost:5000"
 
   const [categoryName, setcategoryName] = useState('')
   const [displayName, setDisplayName] = useState('')

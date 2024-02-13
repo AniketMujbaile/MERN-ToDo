@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const AddTodoForm = ({ token, setCurrentTodos, onSearch, onAdd, fetchCategories, categories }) => {
-  //const Url = "https://todo-app-rho-three-59.vercel.app"
-  const Url = "http://localhost:5000"
+  const Url = "https://mern-to-do-ten.vercel.app/"
+  //const Url = "http://localhost:5000"
   const [newTodo, setNewTodo] = useState('');
   const [disable, setDisable] = useState(false)
   const [category, setCategory] = useState("")
