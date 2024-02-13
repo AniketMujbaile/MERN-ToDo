@@ -4,7 +4,7 @@ This is a Todo App built with React.js for the frontend, Node.js and Express for
 
 ### 🔗 Hosted link
 
-Hosted Link: [ToDo App]()
+Hosted Link: [ToDo App](https://mern-to-do-seven.vercel.app/login)
 
 ## Features
 
@@ -95,11 +95,11 @@ npm start
 - `PUT /toggleSubTodo/:id`: Toggle the completion status of a subtodo
 
 ## Screenshots
-<img src="" width="500px">
+<img src="https://github.com/AniketMujbaile/MERN-ToDo/blob/main/Img/Img1.png" width="500px">
 <hr/>
-<img src="" width="500px">
+<img src="https://github.com/AniketMujbaile/MERN-ToDo/blob/main/Img/Img2.png" width="500px">
 <hr/>
-<img src="" width="500px">
+<img src="https://github.com/AniketMujbaile/MERN-ToDo/blob/main/Img/Img3.png" width="500px">
 <hr/>
 
  
