@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router';
 
 const TodoList = ({ token, categories, fetchCategories }) => {
   //const Url = "http://localhost:5000"
-  const Url = "https://mern-to-do-ten.vercel.app/"
+  const Url = "https://todo-pc7k.onrender.com"
 
   const navigate = useNavigate()
   const [todos, setTodos] = useState([]);

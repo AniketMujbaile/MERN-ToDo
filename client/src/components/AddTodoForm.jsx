@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const AddTodoForm = ({ token, setCurrentTodos, onSearch, onAdd, fetchCategories, categories }) => {
-  const Url = "https://mern-to-do-ten.vercel.app/"
+  const Url = "https://todo-pc7k.onrender.com"
   //const Url = "http://localhost:5000"
   const [newTodo, setNewTodo] = useState('');
   const [disable, setDisable] = useState(false)
